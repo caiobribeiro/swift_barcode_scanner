@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9F519F22BBEE5A000242871 /* BacodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F519F12BBEE5A000242871 /* BacodeScannerApp.swift */; };
+		A9F519F42BBEE5A000242871 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F519F32BBEE5A000242871 /* BarcodeScannerView.swift */; };
+		A9F519F62BBEE5A100242871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F519F52BBEE5A100242871 /* Assets.xcassets */; };
+		A9F519F92BBEE5A100242871 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F519F82BBEE5A100242871 /* Preview Assets.xcassets */; };
+		A9F51A032BBEE5A100242871 /* BacodeScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F51A022BBEE5A100242871 /* BacodeScannerTests.swift */; };
+		A9F51A0D2BBEE5A100242871 /* BacodeScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F51A0C2BBEE5A100242871 /* BacodeScannerUITests.swift */; };
+		A9F51A0F2BBEE5A200242871 /* BacodeScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F51A0E2BBEE5A200242871 /* BacodeScannerUITestsLaunchTests.swift */; };
+		A9F51A1C2BBEE91A00242871 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F51A1B2BBEE91A00242871 /* ScannerVC.swift */; };
+		A9F51A1E2BBF321300242871 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F51A1D2BBF321300242871 /* ScannerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9F519FF2BBEE5A100242871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F519E62BBEE5A000242871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F519ED2BBEE5A000242871;
+			remoteInfo = BacodeScanner;
+		};
+		A9F51A092BBEE5A100242871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F519E62BBEE5A000242871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F519ED2BBEE5A000242871;
+			remoteInfo = BacodeScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9F519EE2BBEE5A000242871 /* BacodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BacodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F519F12BBEE5A000242871 /* BacodeScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacodeScannerApp.swift; sourceTree = "<group>"; };
+		A9F519F32BBEE5A000242871 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		A9F519F52BBEE5A100242871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9F519F82BBEE5A100242871 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9F519FE2BBEE5A100242871 /* BacodeScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BacodeScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F51A022BBEE5A100242871 /* BacodeScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacodeScannerTests.swift; sourceTree = "<group>"; };
+		A9F51A082BBEE5A100242871 /* BacodeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BacodeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F51A0C2BBEE5A100242871 /* BacodeScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacodeScannerUITests.swift; sourceTree = "<group>"; };
+		A9F51A0E2BBEE5A200242871 /* BacodeScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacodeScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9F51A1B2BBEE91A00242871 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		A9F51A1D2BBF321300242871 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F519EB2BBEE5A000242871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F519FB2BBEE5A100242871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F51A052BBEE5A100242871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9F519E52BBEE5A000242871 = {
+			isa = PBXGroup;
+			children = (
+				A9F519F02BBEE5A000242871 /* BacodeScanner */,
+				A9F51A012BBEE5A100242871 /* BacodeScannerTests */,
+				A9F51A0B2BBEE5A100242871 /* BacodeScannerUITests */,
+				A9F519EF2BBEE5A000242871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F519EF2BBEE5A000242871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F519EE2BBEE5A000242871 /* BacodeScanner.app */,
+				A9F519FE2BBEE5A100242871 /* BacodeScannerTests.xctest */,
+				A9F51A082BBEE5A100242871 /* BacodeScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F519F02BBEE5A000242871 /* BacodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				A9F519F12BBEE5A000242871 /* BacodeScannerApp.swift */,
+				A9F519F32BBEE5A000242871 /* BarcodeScannerView.swift */,
+				A9F519F52BBEE5A100242871 /* Assets.xcassets */,
+				A9F519F72BBEE5A100242871 /* Preview Content */,
+				A9F51A1B2BBEE91A00242871 /* ScannerVC.swift */,
+				A9F51A1D2BBF321300242871 /* ScannerView.swift */,
+			);
+			path = BacodeScanner;
+			sourceTree = "<group>";
+		};
+		A9F519F72BBEE5A100242871 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9F519F82BBEE5A100242871 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9F51A012BBEE5A100242871 /* BacodeScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F51A022BBEE5A100242871 /* BacodeScannerTests.swift */,
+			);
+			path = BacodeScannerTests;
+			sourceTree = "<group>";
+		};
+		A9F51A0B2BBEE5A100242871 /* BacodeScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F51A0C2BBEE5A100242871 /* BacodeScannerUITests.swift */,
+				A9F51A0E2BBEE5A200242871 /* BacodeScannerUITestsLaunchTests.swift */,
+			);
+			path = BacodeScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F519ED2BBEE5A000242871 /* BacodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F51A122BBEE5A200242871 /* Build configuration list for PBXNativeTarget "BacodeScanner" */;
+			buildPhases = (
+				A9F519EA2BBEE5A000242871 /* Sources */,
+				A9F519EB2BBEE5A000242871 /* Frameworks */,
+				A9F519EC2BBEE5A000242871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BacodeScanner;
+			productName = BacodeScanner;
+			productReference = A9F519EE2BBEE5A000242871 /* BacodeScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9F519FD2BBEE5A100242871 /* BacodeScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F51A152BBEE5A200242871 /* Build configuration list for PBXNativeTarget "BacodeScannerTests" */;
+			buildPhases = (
+				A9F519FA2BBEE5A100242871 /* Sources */,
+				A9F519FB2BBEE5A100242871 /* Frameworks */,
+				A9F519FC2BBEE5A100242871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F51A002BBEE5A100242871 /* PBXTargetDependency */,
+			);
+			name = BacodeScannerTests;
+			productName = BacodeScannerTests;
+			productReference = A9F519FE2BBEE5A100242871 /* BacodeScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9F51A072BBEE5A100242871 /* BacodeScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F51A182BBEE5A200242871 /* Build configuration list for PBXNativeTarget "BacodeScannerUITests" */;
+			buildPhases = (
+				A9F51A042BBEE5A100242871 /* Sources */,
+				A9F51A052BBEE5A100242871 /* Frameworks */,
+				A9F51A062BBEE5A100242871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F51A0A2BBEE5A100242871 /* PBXTargetDependency */,
+			);
+			name = BacodeScannerUITests;
+			productName = BacodeScannerUITests;
+			productReference = A9F51A082BBEE5A100242871 /* BacodeScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F519E62BBEE5A000242871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A9F519ED2BBEE5A000242871 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A9F519FD2BBEE5A100242871 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A9F519ED2BBEE5A000242871;
+					};
+					A9F51A072BBEE5A100242871 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A9F519ED2BBEE5A000242871;
+					};
+				};
+			};
+			buildConfigurationList = A9F519E92BBEE5A000242871 /* Build configuration list for PBXProject "BacodeScanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9F519E52BBEE5A000242871;
+			productRefGroup = A9F519EF2BBEE5A000242871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F519ED2BBEE5A000242871 /* BacodeScanner */,
+				A9F519FD2BBEE5A100242871 /* BacodeScannerTests */,
+				A9F51A072BBEE5A100242871 /* BacodeScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F519EC2BBEE5A000242871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F519F92BBEE5A100242871 /* Preview Assets.xcassets in Resources */,
+				A9F519F62BBEE5A100242871 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F519FC2BBEE5A100242871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F51A062BBEE5A100242871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F519EA2BBEE5A000242871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F51A1C2BBEE91A00242871 /* ScannerVC.swift in Sources */,
+				A9F51A1E2BBF321300242871 /* ScannerView.swift in Sources */,
+				A9F519F42BBEE5A000242871 /* BarcodeScannerView.swift in Sources */,
+				A9F519F22BBEE5A000242871 /* BacodeScannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F519FA2BBEE5A100242871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F51A032BBEE5A100242871 /* BacodeScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F51A042BBEE5A100242871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F51A0D2BBEE5A100242871 /* BacodeScannerUITests.swift in Sources */,
+				A9F51A0F2BBEE5A200242871 /* BacodeScannerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9F51A002BBEE5A100242871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F519ED2BBEE5A000242871 /* BacodeScanner */;
+			targetProxy = A9F519FF2BBEE5A100242871 /* PBXContainerItemProxy */;
+		};
+		A9F51A0A2BBEE5A100242871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F519ED2BBEE5A000242871 /* BacodeScanner */;
+			targetProxy = A9F51A092BBEE5A100242871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9F51A102BBEE5A200242871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9F51A112BBEE5A200242871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F51A132BBEE5A200242871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BacodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = HT553M937L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan barcodes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bruh.BacodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F51A142BBEE5A200242871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BacodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = HT553M937L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan barcodes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bruh.BacodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9F51A162BBEE5A200242871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bruh.BacodeScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BacodeScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BacodeScanner";
+			};
+			name = Debug;
+		};
+		A9F51A172BBEE5A200242871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bruh.BacodeScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BacodeScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BacodeScanner";
+			};
+			name = Release;
+		};
+		A9F51A192BBEE5A200242871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bruh.BacodeScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BacodeScanner;
+			};
+			name = Debug;
+		};
+		A9F51A1A2BBEE5A200242871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bruh.BacodeScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BacodeScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F519E92BBEE5A000242871 /* Build configuration list for PBXProject "BacodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F51A102BBEE5A200242871 /* Debug */,
+				A9F51A112BBEE5A200242871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F51A122BBEE5A200242871 /* Build configuration list for PBXNativeTarget "BacodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F51A132BBEE5A200242871 /* Debug */,
+				A9F51A142BBEE5A200242871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F51A152BBEE5A200242871 /* Build configuration list for PBXNativeTarget "BacodeScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F51A162BBEE5A200242871 /* Debug */,
+				A9F51A172BBEE5A200242871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F51A182BBEE5A200242871 /* Build configuration list for PBXNativeTarget "BacodeScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F51A192BBEE5A200242871 /* Debug */,
+				A9F51A1A2BBEE5A200242871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F519E62BBEE5A000242871 /* Project object */;
+}
